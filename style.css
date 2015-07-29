@@ -6,7 +6,7 @@
 }
 
 body {
-	background-color:#000;
+	background-color:#151515;
 	color:#efefef;
 	
 	font-family:Helvetica, Arial, Sans-Serif;
@@ -26,7 +26,7 @@ h1 {
 	font-size:120pt;
 	font-size:12vw;
 	
-	
+	text-shadow:2px 3px 0 #000;
 	letter-spacing:4pt;
 	
 	margin:0;
@@ -60,9 +60,72 @@ p {
 	margin:30pt;
 }
 
+p.Address {
+	margin:0;
+	font-family:Times, "Times New Roman", Serif;
+	letter-spacing:1pt;
+	font-size:1.5em;
+}
+
 p.Intro {
 	width:75%;
 	max-width:600px;
-	margin:30pt auto;
+	margin:20pt auto 0;
 	text-align:justify;
 }
+
+ul {
+	display:inline-block;
+	line-height:2.5em;
+	list-style:none;
+	padding:0;
+	width:75%;
+	margin:30pt auto 0;
+}
+
+ul label {
+	display:block;
+	margin-right:10pt;
+	font-family:Hoefler;
+	font-size:22pt;
+}
+
+ul label span {
+	font-size:13pt;
+}
+
+ul li {
+	padding-bottom:10pt;
+}
+
+ul li > span {
+	font-size:13pt;
+}
+
+p.Phone {
+	font-family:Times, "Times New Roman", Serif;
+	font-size:26pt;
+	margin:0;
+	letter-spacing:2pt;
+}
+
+img.Map {
+	width:74%;
+	max-width:588px;
+	margin:30pt auto;
+	padding:3px;
+	border:3px solid #efefef;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
