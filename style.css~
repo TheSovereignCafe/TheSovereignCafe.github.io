@@ -1,0 +1,11 @@
+@font-face {
+	font-family:"Hoefler";
+	font-weight:normal;
+	font-style:normal;
+	src:url("assets/Hoefler.otf");
+}
+
+body {
+	background-color:#000;
+	color:#efefef;
+}

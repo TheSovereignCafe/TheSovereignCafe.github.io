@@ -1,0 +1,29 @@
+@font-face {
+	font-family:"Hoefler";
+	font-weight:normal;
+	font-style:normal;
+	src:url("assets/hoefler.otf");
+}
+
+body {
+	background-color:#000;
+	color:#efefef;
+	
+	text-align:center;
+}
+
+h1 {
+	font-family:Hoefler;
+	font-weight:normal;
+	
+	font-size:120pt;
+	font-size:12vw;
+}
+
+h2 {
+	font-family:Sans-Serif;
+	font-weight:normal;
+	
+	font-size:48pt;
+	font-size:5vw;
+}
