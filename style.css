@@ -13,11 +13,40 @@ body {
 }
 
 h1 {
+	display:inline-block;
+	position:relative;
+	
 	font-family:Hoefler;
 	font-weight:normal;
 	
 	font-size:120pt;
 	font-size:12vw;
+	
+	
+	letter-spacing:4pt;
+}
+
+h1 span.Article {
+	position:absolute;
+	top:-0.5em;
+	left:3em;
+	
+	font-size:32pt;
+	font-size:3.5vw;
+}
+
+h1 span.SmallCaps {
+	text-transform:uppercase;
+}
+
+h1 span.Article span.SmallCaps {
+	font-size:24pt;
+	font-size:2.8125vw;
+}
+
+h1 span.Subject span.SmallCaps {
+	font-size:72pt;
+	font-size:8vw;
 }
 
 h2 {
