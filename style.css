@@ -9,6 +9,10 @@ body {
 	background-color:#000;
 	color:#efefef;
 	
+	font-family:Helvetica, Arial, Sans-Serif;
+	font-size:11pt;
+	
+	padding-top:60pt;
 	text-align:center;
 }
 
@@ -24,6 +28,8 @@ h1 {
 	
 	
 	letter-spacing:4pt;
+	
+	margin:0;
 }
 
 h1 span.Article {
@@ -49,10 +55,12 @@ h1 span.Subject span.SmallCaps {
 	font-size:8vw;
 }
 
-h2 {
-	font-family:Sans-Serif;
-	font-weight:normal;
-	
-	font-size:48pt;
-	font-size:5vw;
+p {
+	line-height:1.75em;
+	margin:30pt;
+}
+
+p.Intro {
+	width:50%;
+	margin:30pt auto;
 }
