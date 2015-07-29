@@ -24,7 +24,7 @@ h1 {
 	font-weight:normal;
 	
 	font-size:92pt;
-	font-size:12vw;
+	font-size:14vw;
 	
 	text-shadow:2px 3px 0 #000;
 	letter-spacing:4pt;
@@ -38,7 +38,7 @@ h1 span.Article {
 	left:3em;
 	
 	font-size:32pt;
-	font-size:3.5vw;
+	font-size:3.75vw;
 }
 
 h1 span.SmallCaps {
@@ -47,12 +47,12 @@ h1 span.SmallCaps {
 
 h1 span.Article span.SmallCaps {
 	font-size:24pt;
-	font-size:2.8125vw;
+	font-size:3vw;
 }
 
 h1 span.Subject span.SmallCaps {
 	font-size:72pt;
-	font-size:8vw;
+	font-size:8.5vw;
 }
 
 p {
