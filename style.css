@@ -55,16 +55,20 @@ h1 span.Subject span.SmallCaps {
 	font-size:8.5vw;
 }
 
+h2.Address {
+	display:inline-block;
+	margin:30pt auto 0;
+	padding:0 0 4pt;
+	font-family:Times, "Times New Roman", Serif;
+	letter-spacing:1pt;
+	font-size:26pt;
+	font-weight:normal;
+	border-bottom:1px solid #efefef;
+}
+
 p {
 	line-height:1.75em;
 	margin:30pt;
-}
-
-p.Address {
-	margin:0;
-	font-family:Times, "Times New Roman", Serif;
-	letter-spacing:1pt;
-	font-size:1.5em;
 }
 
 p.Intro {
