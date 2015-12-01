@@ -2,10 +2,134 @@
 	font-family:"Hoefler";
 	font-weight:normal;
 	font-style:normal;
-	src:url("assets/Hoefler.otf");
+	src:url("assets/hoefler.otf");
 }
 
 body {
-	background-color:#000;
+	background-color:#151515;
 	color:#efefef;
+	
+	font-family:Helvetica, Arial, Sans-Serif;
+	font-size:11pt;
+	
+	padding-top:60pt;
+	text-align:center;
 }
+
+h1 {
+	display:inline-block;
+	position:relative;
+	
+	font-family:Hoefler;
+	font-weight:normal;
+	
+	font-size:92pt;
+	font-size:14vw;
+	
+	text-shadow:2px 3px 0 #000;
+	letter-spacing:4pt;
+	
+	margin:0;
+}
+
+h1 span.Article {
+	position:absolute;
+	top:-0.5em;
+	left:3em;
+	
+	font-size:32pt;
+	font-size:3.75vw;
+}
+
+h1 span.SmallCaps {
+	text-transform:uppercase;
+}
+
+h1 span.Article span.SmallCaps {
+	font-size:24pt;
+	font-size:3vw;
+}
+
+h1 span.Subject span.SmallCaps {
+	font-size:72pt;
+	font-size:8.5vw;
+}
+
+h2.Address {
+	display:inline-block;
+	margin:30pt auto 0;
+	padding:0 0 4pt;
+	font-family:Times, "Times New Roman", Serif;
+	letter-spacing:1pt;
+	font-size:26pt;
+	font-weight:normal;
+	border-bottom:1px solid #efefef;
+}
+
+p {
+	line-height:1.75em;
+	margin:30pt;
+}
+
+p.Intro {
+	width:75%;
+	max-width:600px;
+	margin:20pt auto 0;
+	text-align:justify;
+}
+
+ul {
+	display:inline-block;
+	line-height:2.5em;
+	list-style:none;
+	padding:0;
+	width:75%;
+	margin:30pt auto 0;
+}
+
+ul label {
+	display:block;
+	margin-right:10pt;
+	font-family:Hoefler;
+	font-size:22pt;
+}
+
+ul label span {
+	font-size:13pt;
+}
+
+ul li {
+	padding-bottom:10pt;
+}
+
+ul li > span {
+	font-size:13pt;
+}
+
+p.Phone {
+	font-family:Times, "Times New Roman", Serif;
+	font-size:26pt;
+	margin:0;
+	letter-spacing:2pt;
+}
+
+img.Map {
+	width:74%;
+	max-width:588px;
+	margin:30pt auto;
+	padding:3px;
+	border:3px solid #efefef;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

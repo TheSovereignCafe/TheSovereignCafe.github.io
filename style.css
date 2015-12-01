@@ -114,6 +114,7 @@ p.Phone {
 }
 
 img.Map {
+	display:block;
 	width:74%;
 	max-width:588px;
 	margin:30pt auto;
