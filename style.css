@@ -12,7 +12,7 @@ body {
 	font-family:Helvetica, Arial, Sans-Serif;
 	font-size:11pt;
 	
-	padding-top:60pt;
+	padding-top:100pt;
 	text-align:center;
 }
 
@@ -30,6 +30,13 @@ h1 {
 	letter-spacing:4pt;
 	
 	margin:0;
+}
+
+h1 > img {
+	position:absolute;
+	top:-0.6125em;
+	left:1.825em;
+	width:11vw;
 }
 
 h1 span.Article {
